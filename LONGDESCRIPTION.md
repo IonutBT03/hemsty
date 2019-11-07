@@ -1,11 +1,5 @@
 # Trident
-[![Discord Bots](https://discordbots.org/api/widget/414512049679237122.svg)](https://discordbots.org/bot/414512049679237122)
-[![Discord Bot List](https://discordbotlist.com/bots/414512049679237122/widget)](https://discordbotlist.com/bots/414512049679237122)
-
-# Links
- * [Support Server](https://discord.gg/FAygeev)
- * [DBL](https://discordbots.org/bot/414512049679237122)
- * [Discord Bot List](https://discordbotlist.com/bots/414512049679237122)
+A high-quality multi-purpose discord bot
 
 # What is Trident?
 Trident is a high quality, friendly, multi-purpose entertainment bot. With many features such as but not only meme images, image manipulation, moderation, and music! We support Youtube, Twitch, Soundcloud and more!
@@ -18,13 +12,13 @@ Trident is a high quality, friendly, multi-purpose entertainment bot. With many 
 * Join/Leave Messages. Welcome your new members to your server with customizable welcome/leave messages.
 
 # Prefix
-The prefix is what tells the bot that your message is a command and not just any message. The default prefix is `t.`, Let's say we wanted to change the prefix to `t!` we can use the `prefix` command so `t.prefix t!` which will change the prefix to `t!`. The prefix in DM's is `t.`, you can set a custom prefix per guild. You can always trigger the bot by using a mention prefix: `@Trident#8422`.
+The prefix is what tells the bot that your message is a command and not just any message. The default prefix is `t!`, Let's say we wanted to change the prefix to `t.` we can use the `prefix` command so `t!prefix t.` which will change the prefix to `t.`. The prefix in DM's is `t!`, you can set a custom prefix per guild. You can always trigger the bot by using a mention prefix: `@Trident#8422`.
 
 # Usage
 Usage is a template for how a command can be used. It is made up of [**Aliases**](#aliases) and [**Arguments**](#arguments).
 
 # Aliases
-Command aliases, It's exactly what it sounds like. Multiple names for one command that you can use to trigger the same command with different names that will produce the same result. They're wrapped in `《 》` and separated by `|`, like this: `《info|what|details》`. This means in a guild where the prefix is `t.` that command can be triggered as `t.info`, `t.what` or `t.details`.
+Command aliases, It's exactly what it sounds like. Multiple names for one command that you can use to trigger the same command with different names that will produce the same result. They're wrapped in `《 》` and separated by `|`, like this: `《info|what|details》`. This means in a guild where the prefix is `t!` that command can be triggered as `t!info`, `t!what` or `t!details`.
 
 # Arguments
 Arguments are the additional pieces of information you provide, to get the information you are looking for. Arguments are separated into 2 categories, required and optional. Required arguments are wrapped in `< >`. Optional arguments are wrapped in `[ ]`. Arguments follow the following format `Name:Type{Min,Max}`.
@@ -44,7 +38,7 @@ The following types are available:
   * **boolean**: `true` or `false`
   * **float, num, number**: Any rational number, written as a decimal. Min/Max refers to the Value.
   * **int, integer**: Positive or Negative Whole Numbers. Min/Max refers to the Value.
-  * **str, string**: Letters and or Letters and numbers mixed. Min/Max refers to the Character Length.
+  * **str, string**: Letters and/or Letters and numbers mixed. Min/Max refers to the Character Length.
   * **url**: A valid URL/Link.
   * **channel**: A Discord channel id or mention.
   * **guild**: A Discord Guild ID.
@@ -59,3 +53,6 @@ The following types are available:
   * **rolename**: A role id, mention or name.
   * **songname**: Used for resolving tracks in the play command.
   * **username**: A user id, tag, username or mention.
+
+# Support Server
+[![Discord](https://discordapp.com/api/guilds/414512153786187776/widget.png?style=banner2)](https://discord.gg/FAygeev)
